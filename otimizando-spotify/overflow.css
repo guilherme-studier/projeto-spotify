@@ -1,0 +1,14 @@
+.item {
+    width: 200px;
+    height: 200px;
+    border: solid 2px black;
+    overflow: hidden;
+    /* Hidden= esconde o conteúdo fora da caixa */
+    /* Scroll= exibe barra para baixar o cursor e 
+        ler o resto do conteúdo dentro da caixa, 
+        mesmo que não seja necessário */
+    /* Auto= /* Scroll= exibe barra para baixar o cursor e 
+        ler o resto do conteúdo dentro da caixa, 
+        apenas que seja necessário */ */
+
+}

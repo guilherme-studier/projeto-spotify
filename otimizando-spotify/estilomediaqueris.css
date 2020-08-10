@@ -1,0 +1,38 @@
+p {
+    font-size: 600;
+    color: blue;
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        background: crimson;
+    }
+    p{
+        font-size: large;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background: blue;
+    }
+    p{
+        font-size: small;
+    }
+}
+@media screen and (min-width: 992px) {
+    body {
+        background: orange;
+    }
+    p{
+        font-size: x-large;
+    }
+}
+@media screen and (min-width: 1200px) {
+    body {
+        background: thistle;
+    }
+    p{
+        font-size: xx-large;
+    }
+}
